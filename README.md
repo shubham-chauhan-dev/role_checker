@@ -28,6 +28,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/shubham-chauhan-dev/role_checker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/role_checker/blob/master/CODE_OF_CONDUCT.md).
 
+1. Create a new branch (git checkout -b feature-name)
+2. Commit your changes (git commit -m 'Add feature')
+3. Push to GitHub (git push origin feature-name)
+4. Open a pull request
+
 <!-- ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). -->
