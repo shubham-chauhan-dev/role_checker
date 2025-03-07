@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "role_checker"
+require 'role_checker'
 
 class TestUser
   include RoleChecker
@@ -12,21 +12,21 @@ class TestUser
 end
 
 RSpec.describe RoleChecker do
-  let(:user) { TestUser.new("admin") }
+  let(:user) { TestUser.new('admin') }
 
   before do
     TestUser.define_roles(%w[admin user editor])
   end
 
-  it "returns true for admin?" do
+  it 'returns true for admin?' do
     expect(user.admin?).to be true
   end
 
-  it "returns false for user?" do
+  it 'returns false for user?' do
     expect(user.user?).to be false
   end
 
-  it "returns false for editor?" do
+  it 'returns false for editor?' do
     expect(user.editor?).to be false
   end
 end
